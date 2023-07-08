@@ -1,0 +1,4 @@
+SELECT * ,
+
+(SELECT COUNT(*) FROM string_split(FULLTEXT,' ')) AS WORDCOUNT FROM LAB09
+ 
